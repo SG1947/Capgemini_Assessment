@@ -1,0 +1,8 @@
+package Week3.abstraction;
+
+public class DieselEngine implements Engine {
+	@Override
+	public void startEngine() {
+		System.out.println("more vibrations");
+	}
+}
